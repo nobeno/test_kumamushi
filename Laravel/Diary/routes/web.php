@@ -11,5 +11,6 @@
 |
 */
 
-Route::get('/', 'DiaryController@index')->name('index');
-Route::get('/personal', 'DiaryController@personal')->name('personal');
+Route::get('/', 'DiaryController@index')->name('diary.index');
+Route::get('/create', 'DiaryController@create')->name('diary.create');
+Route::post('/create', 'DiaryController@store')->name('diary.create');

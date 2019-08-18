@@ -20,10 +20,10 @@
           <div class="collapse navbar-collapse" id="navbarText">
             <ul class="navbar-nav mr-auto">
               <li class="nav-item active">
-                <a class="nav-link" href="{{ route('index')}}">サービスについて</a>
+                <a class="nav-link" href="{{ route('diary.index')}}">サービスについて</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="{{ route('personal')}}">ログイン</a>
+                <a class="nav-link" href="#">ログイン</a>
               </li>
               <li class="nav-item">
                 <a class="nav-link" href="#">新規登録</a>
@@ -41,7 +41,7 @@
     <div class="container">
         <div class="main-left">
           <div class="parsonal-btn">
-          <a href="{{ route('personal') }}">個人設計を始める</a>
+          <a href="{{ route('diary.create') }}">個人設計を始める</a>
           </div><br>
           <div class="team-btn">
           <a href="">チーム設計を始める</a><br>

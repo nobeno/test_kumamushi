@@ -1,0 +1,32 @@
+.nav-item a {
+  color: red;
+}
+
+.parsonal-info {
+  margin-top: 100px;
+}
+
+.contents {
+  margin-left:50px;
+  margin-right:50px;
+}
+
+.face-img {
+  float: right;
+  margin-right: 200px;
+  display: inline-block;
+  width: 150px;
+  height: 200px;
+  border: 1px solid black;
+}
+.name {
+  display: inline-block;
+}
+.barth {
+  display: inline-block;
+}
+
+.profile textarea {
+  height: 100px;
+  width: 500px;
+}

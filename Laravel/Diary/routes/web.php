@@ -11,6 +11,5 @@
 |
 */
 
-Route::get('/', function () {
-    return view('welcome');
-});
+Route::get('/', 'DiaryController@index')->name('index');
+Route::get('/personal', 'DiaryController@personal')->name('personal');
